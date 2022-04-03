@@ -1,4 +1,4 @@
-import {sayHello} from "./say-hello.js";
+import {} from "./@angular/material"
 import myDefault from "./default.js";
 import {data, noDefaultSayHello, default as hello} from "./default.js";
 import * as all from "./default.js";

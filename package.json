@@ -1,0 +1,24 @@
+{
+  "name": "javascript-review",
+  "version": "1.0.0",
+  "description": "class javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'start'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hola": "echo 'hola'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hittten/javasscript-review.git"
+  },
+  "author": "Gil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hittten/javasscript-review/issues"
+  },
+  "homepage": "https://github.com/hittten/javasscript-review#readme",
+  "dependencies": {
+    "@angular/core": "^12.0.0"
+  }
+}

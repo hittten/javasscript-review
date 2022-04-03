@@ -44,8 +44,6 @@
   })
   console.log(found);
 
-  const found2 = shopping.findIndex(function (element) {
-    return /m/.test(element);
-  })
+  const found2 = shopping.findIndex(element => /m/.test(element))
   console.log(found2);
 </script>

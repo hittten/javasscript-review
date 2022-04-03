@@ -46,12 +46,16 @@
   console.log(myFunctionObject2());
 
   // No separated this
-  function Person() {
+  function Person4() {
     // The Person() constructor defines `this` as an instance of itself.
-    this.age = 0;
+    var age = 0;
 
     function growUp() {
-      this.age++;
+      age++;
+    }
+
+    function showAge() {
+      return age;
     }
 
     setInterval(growUp, 1000);
